@@ -1,4 +1,3 @@
-'os': ['path','system'],
-' time ': ['sleep']
-'colorama':['flore','Back', 'Stylist']
-public static function printAllType($ary){$cnt = count($ary)
+'os': ['path','system'],' time ': ['sleep']'colorama':['flore','Back', 'Stylist']public static function printAllType($ary){$cnt = count($ary)
+
+
