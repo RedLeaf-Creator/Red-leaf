@@ -1,3 +1,62 @@
-'os': ['path','system'],' time ': ['sleep']'colorama':['flore','Back', 'Stylist']public static function printAllType($ary){$cnt = count($ary)
+'os': ['path','system'],
+' time ': ['sleep']
+'colorama':['flore','Back','Stylist']
+public static function printAllType($ary){$cnt = count($ary);
+echo '';
+echo '[';
+import random
+import string
 
+def generate_password(length=12):
+    characters = string.ascii_letters + string.digits + string.punctuation
+    return ''.join(random.choice(characters) for _ in range(length))
+
+print(generate_password())
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Text Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body { font-family: system-ui, sans-serif; line-height: 1.6; margin: 2rem; max-width: 65ch; }
+      h1 { margin-bottom: 0.5rem; }
+      p { margin: 0.75rem 0; }
+    </style>
+  </head>
+  <body>
+    <h1>My Text Page</h1>
+    <p>This is a simple text page written in HTML.</p>
+    <p>You can add more paragraphs, lists, and headings as needed.</p>
+  </body>
+</html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Readable Text Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      :root { --fg: #222; --bg: #fff; --accent: #3a6ea5; }
+      body { color: var(--fg); background: var(--bg); font: 16px/1.7 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; }
+      main { max-width: 70ch; margin: 4rem auto; padding: 0 1rem; }
+      h1, h2 { line-height: 1.2; }
+      h1 { font-size: 2rem; margin: 0 0 1rem; }
+      h2 { font-size: 1.25rem; margin: 2rem 0 0.75rem; color: var(--accent); }
+      p { margin: 0.75rem 0; }
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Story index</h1>
+      <p>Welcome to the text page. Use sections to organize content.</p>
+
+      <h2>Chapter 1: Arrival</h2>
+      <h2>Notes</h2>
+      <p>Draft ideas, references, and character links go here.</p>
+    </main>
+  </body>
+</html>
 
